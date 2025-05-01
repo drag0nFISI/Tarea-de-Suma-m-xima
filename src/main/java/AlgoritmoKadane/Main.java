@@ -1,4 +1,4 @@
-package Main;
+package AlgoritmoKadane;
 import java.util.Scanner;
 
 /**
@@ -21,7 +21,7 @@ public class Main {
             arreglo[i] = scanner.nextInt();
         }
 
-        SubSumaMaxima calculadora = new SubSumaMaxima();
+        SumaMaxima calculadora = new SumaMaxima();
         ResultadoKadane resultado = calculadora.encontrarSubsecuenciaMaxima(arreglo);
 
         System.out.println("\nLa suma maxima es:\t" + resultado.getSumaMaxima());

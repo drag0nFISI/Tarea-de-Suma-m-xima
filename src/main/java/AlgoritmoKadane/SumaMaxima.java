@@ -1,10 +1,10 @@
-package Main;
+package AlgoritmoKadane;
 
 /**
  *
  * @author Rojas Rojas Max
  */
-public class SubSumaMaxima {
+public class SumaMaxima {
    public ResultadoKadane encontrarSubsecuenciaMaxima(int[] arr) {
         int maxActual = arr[0];
         int maxTotal = arr[0];
